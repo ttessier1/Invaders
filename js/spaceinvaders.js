@@ -54,7 +54,7 @@ SpaceInvaders.Title.onload = function(){
 	SpaceInvaders.Title.loaded = true;
 	console.log("Title Loaded");
 };
-SpaceInvaders.Title.src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/Title.png';
+SpaceInvaders.Title.src = 'img/Title.png';
 
 SpaceInvaders.Message1 = new Image();
 SpaceInvaders.Message1.loaded = false;
@@ -62,7 +62,7 @@ SpaceInvaders.Message1.onload = function(){
 	console.log("Message1 Loaded");
 	SpaceInvaders.Message1.loaded = true;
 };
-SpaceInvaders.Message1.src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/Message1.png';
+SpaceInvaders.Message1.src = 'img/Message1.png';
 
 SpaceInvaders.Message2 = new Image();
 SpaceInvaders.Message2.loaded = false;
@@ -70,7 +70,7 @@ SpaceInvaders.Message2.onload = function(){
 	console.log("Message2 Loaded");
 	SpaceInvaders.Message2.loaded = true;
 };
-SpaceInvaders.Message2.src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/Message2.png';
+SpaceInvaders.Message2.src = 'img/Message2.png';
 
 // Enemy Graphics
 SpaceInvaders.Class1Enemy = "Class1" ;
@@ -83,7 +83,7 @@ SpaceInvaders.playerGraphic.loaded = false ;
 SpaceInvaders.playerGraphic.onload = function(){
 	SpaceInvaders.playerGraphic.loaded = true ;
  };
- SpaceInvaders.playerGraphic.src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/player.png';
+ SpaceInvaders.playerGraphic.src = 'img/player.png';
 
 SpaceInvaders.explosion = [];
 SpaceInvaders.explosion[0] = new Image();
@@ -91,43 +91,43 @@ SpaceInvaders.explosion[0].loaded = false;
 SpaceInvaders.explosion[0].onload = function(){
 	SpaceInvaders.explosion[0].loaded = true;
 };
-SpaceInvaders.explosion[0].src = "https://www.swhistlesoft.com/demo/SpaceInvaders/img/explosion1.png";
+SpaceInvaders.explosion[0].src = "img/explosion1.png";
 SpaceInvaders.explosion[1] = new Image();
 SpaceInvaders.explosion[1].loaded = false;
 SpaceInvaders.explosion[1].onload = function(){
 	SpaceInvaders.explosion[1].loaded = true;
 };
-SpaceInvaders.explosion[1].src = "https://www.swhistlesoft.com/demo/SpaceInvaders/img/explosion2.png";
+SpaceInvaders.explosion[1].src = "img/explosion2.png";
 SpaceInvaders.explosion[2] = new Image();
 SpaceInvaders.explosion[2].loaded = false;
 SpaceInvaders.explosion[2].onload = function(){
 	SpaceInvaders.explosion[2].loaded = true;
 };
-SpaceInvaders.explosion[2].src = "https://www.swhistlesoft.com/demo/SpaceInvaders/img/explosion3.png";
+SpaceInvaders.explosion[2].src = "img/explosion3.png";
 SpaceInvaders.explosion[3] = new Image();
 SpaceInvaders.explosion[3].loaded = false;
 SpaceInvaders.explosion[3].onload = function(){
 	SpaceInvaders.explosion[3].loaded = true;
 };
-SpaceInvaders.explosion[3].src = "https://www.swhistlesoft.com/demo/SpaceInvaders/img/explosion4.png";
+SpaceInvaders.explosion[3].src = "img/explosion4.png";
 SpaceInvaders.explosion[4] = new Image();
 SpaceInvaders.explosion[4].loaded = false;
 SpaceInvaders.explosion[4].onload = function(){
 	SpaceInvaders.explosion[4].loaded = true;
 };
-SpaceInvaders.explosion[4].src = "https://www.swhistlesoft.com/demo/SpaceInvaders/img/explosion5.png";
+SpaceInvaders.explosion[4].src = "img/explosion5.png";
 SpaceInvaders.explosion[5] = new Image();
 SpaceInvaders.explosion[5].loaded = false;
 SpaceInvaders.explosion[5].onload = function(){
 	SpaceInvaders.explosion[5].loaded = true;
 };
-SpaceInvaders.explosion[5].src = "https://www.swhistlesoft.com/demo/SpaceInvaders/img/explosion6.png";
+SpaceInvaders.explosion[5].src = "img/explosion6.png";
 SpaceInvaders.explosion[6] = new Image();
 SpaceInvaders.explosion[6].loaded = false;
 SpaceInvaders.explosion[6].onload = function(){
 	SpaceInvaders.explosion[6].loaded = true;
 };
-SpaceInvaders.explosion[6].src = "https://www.swhistlesoft.com/demo/SpaceInvaders/img/explosion7.png";
+SpaceInvaders.explosion[6].src = "img/explosion7.png";
 
 
  
@@ -138,7 +138,7 @@ SpaceInvaders.enemyClass1[0].onload = function(){
 	//SpaceInvaders.Log.Log ( "Enemy 1 graphics loaded" ) ;
 	SpaceInvaders.enemyClass1[0].loaded = true ;
 };
-SpaceInvaders.enemyClass1[0].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy1-4.png';
+SpaceInvaders.enemyClass1[0].src = 'img/enemy1-4.png';
 
 SpaceInvaders.enemyClass1[1] = new Image();
 SpaceInvaders.enemyClass1[1].loaded = false ;
@@ -146,7 +146,7 @@ SpaceInvaders.enemyClass1[1].onload = function(){
 	//SpaceInvaders.Log.Log ( "Enemy 1 graphics loaded" ) ;
 	SpaceInvaders.enemyClass1[1].loaded = true ;
 };
-SpaceInvaders.enemyClass1[1].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy1-3.png';
+SpaceInvaders.enemyClass1[1].src = 'img/enemy1-3.png';
  
 SpaceInvaders.enemyClass1[2] = new Image();
 SpaceInvaders.enemyClass1[2].loaded = false ;
@@ -155,14 +155,14 @@ SpaceInvaders.enemyClass1[2].onload = function(){
 	SpaceInvaders.enemyClass1[2].loaded = true ;
 };
 
-SpaceInvaders.enemyClass1[2].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy1-2.png';
+SpaceInvaders.enemyClass1[2].src = 'img/enemy1-2.png';
 SpaceInvaders.enemyClass1[3] = new Image();
 SpaceInvaders.enemyClass1[3].loaded = false ;
 SpaceInvaders.enemyClass1[3].onload = function(){
 	//SpaceInvaders.Log.Log ( "Enemy 1 graphics loaded" ) ;
 	SpaceInvaders.enemyClass1[3].loaded = true ;
 };
-SpaceInvaders.enemyClass1[3].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy1-1.png';
+SpaceInvaders.enemyClass1[3].src = 'img/enemy1-1.png';
 
 SpaceInvaders.enemyClass2 =[];
 SpaceInvaders.enemyClass2[0] =  new Image();
@@ -171,7 +171,7 @@ SpaceInvaders.enemyClass2[0].onload = function(){
 //	SpaceInvaders.Log.Log ( "Enemy 2 graphics loaded" ) ;
 	SpaceInvaders.enemyClass2[0].loaded = true ;
 };
-SpaceInvaders.enemyClass2[0].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy2-4.png';
+SpaceInvaders.enemyClass2[0].src = 'img/enemy2-4.png';
 SpaceInvaders.enemyClass2[1] =  new Image();
 SpaceInvaders.enemyClass2[1].loaded = false ;
 SpaceInvaders.enemyClass2[1].onload = function(){
@@ -185,14 +185,14 @@ SpaceInvaders.enemyClass2[2].onload = function(){
 //	SpaceInvaders.Log.Log ( "Enemy 2 graphics loaded" ) ;
 	SpaceInvaders.enemyClass2[2].loaded = true ;
 };
-SpaceInvaders.enemyClass2[2].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy2-2.png';
+SpaceInvaders.enemyClass2[2].src = 'img/enemy2-2.png';
 SpaceInvaders.enemyClass2[3] =  new Image();
 SpaceInvaders.enemyClass2[3].loaded = false ;
 SpaceInvaders.enemyClass2[3].onload = function(){
 //	SpaceInvaders.Log.Log ( "Enemy 2 graphics loaded" ) ;
 	SpaceInvaders.enemyClass2[3].loaded = true ;
 };
-SpaceInvaders.enemyClass2[3].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy2-1.png';
+SpaceInvaders.enemyClass2[3].src = 'img/enemy2-1.png';
 
 SpaceInvaders.enemyClass3 =[];
 SpaceInvaders.enemyClass3[0] =  new Image();
@@ -201,28 +201,28 @@ SpaceInvaders.enemyClass3[0].onload = function(){
 	//SpaceInvaders.Log.Log ( "Enemy 3 graphics loaded" ) ;
 	SpaceInvaders.enemyClass3[0].loaded = true ;
 };
-SpaceInvaders.enemyClass3[0].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy3-1.png';
+SpaceInvaders.enemyClass3[0].src = 'img/enemy3-1.png';
 SpaceInvaders.enemyClass3[1] =  new Image();
 SpaceInvaders.enemyClass3[1].loaded = false ;
 SpaceInvaders.enemyClass3[1].onload = function(){
 	//SpaceInvaders.Log.Log ( "Enemy 3 graphics loaded" ) ;
 	SpaceInvaders.enemyClass3[1].loaded = true ;
 };
-SpaceInvaders.enemyClass3[1].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy3-2.png';
+SpaceInvaders.enemyClass3[1].src = 'img/enemy3-2.png';
 SpaceInvaders.enemyClass3[2] =  new Image();
 SpaceInvaders.enemyClass3[2].loaded = false ;
 SpaceInvaders.enemyClass3[2].onload = function(){
 	//SpaceInvaders.Log.Log ( "Enemy 3 graphics loaded" ) ;
 	SpaceInvaders.enemyClass3[2].loaded = true ;
 };
-SpaceInvaders.enemyClass3[2].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy3-3.png';
+SpaceInvaders.enemyClass3[2].src = 'img/enemy3-3.png';
 SpaceInvaders.enemyClass3[3] =  new Image();
 SpaceInvaders.enemyClass3[3].loaded = false ;
 SpaceInvaders.enemyClass3[3].onload = function(){
 	//SpaceInvaders.Log.Log ( "Enemy 3 graphics loaded" ) ;
 	SpaceInvaders.enemyClass3[3].loaded = true ;
 };
-SpaceInvaders.enemyClass3[3].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy3-4.png';
+SpaceInvaders.enemyClass3[3].src = 'img/enemy3-4.png';
  
 SpaceInvaders.enemyClass4 =[];
 SpaceInvaders.enemyClass4[0] =  new Image();
@@ -231,28 +231,28 @@ SpaceInvaders.enemyClass4[0].onload = function(){
 	//SpaceInvaders.Log.Log ( "Enemy 4 graphics loaded" ) ;
 	SpaceInvaders.enemyClass4[0].loaded = true ;
 };
-SpaceInvaders.enemyClass4[0].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy4-1.png';
+SpaceInvaders.enemyClass4[0].src = 'img/enemy4-1.png';
 SpaceInvaders.enemyClass4[1] =  new Image();
 SpaceInvaders.enemyClass4[1].loaded = false ;
 SpaceInvaders.enemyClass4[1].onload = function(){
 	//SpaceInvaders.Log.Log ( "Enemy 4 graphics loaded" ) ;
 	SpaceInvaders.enemyClass4[1].loaded = true ;
 };
-SpaceInvaders.enemyClass4[1].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy4-2.png';
+SpaceInvaders.enemyClass4[1].src = 'img/enemy4-2.png';
 SpaceInvaders.enemyClass4[2] =  new Image();
 SpaceInvaders.enemyClass4[2].loaded = false ;
 SpaceInvaders.enemyClass4[2].onload = function(){
 	//SpaceInvaders.Log.Log ( "Enemy 4 graphics loaded" ) ;
 	SpaceInvaders.enemyClass4[2].loaded = true ;
 };
-SpaceInvaders.enemyClass4[2].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy4-3.png';
+SpaceInvaders.enemyClass4[2].src = 'img/enemy4-3.png';
 SpaceInvaders.enemyClass4[3] =  new Image();
 SpaceInvaders.enemyClass4[3].loaded = false ;
 SpaceInvaders.enemyClass4[3].onload = function(){
 	//SpaceInvaders.Log.Log ( "Enemy 4 graphics loaded" ) ;
 	SpaceInvaders.enemyClass4[3].loaded = true ;
 };
-SpaceInvaders.enemyClass4[3].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy4-4.png';
+SpaceInvaders.enemyClass4[3].src = 'img/enemy4-4.png';
 
 SpaceInvaders.bGameOver = false ;
 
