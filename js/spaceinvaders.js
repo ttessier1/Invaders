@@ -178,7 +178,7 @@ SpaceInvaders.enemyClass2[1].onload = function(){
 //	SpaceInvaders.Log.Log ( "Enemy 2 graphics loaded" ) ;
 	SpaceInvaders.enemyClass2[1].loaded = true ;
 };
-SpaceInvaders.enemyClass2[1].src = 'https://www.swhistlesoft.com/demo/SpaceInvaders/img/enemy2-3.png';
+SpaceInvaders.enemyClass2[1].src = 'img/enemy2-3.png';
 SpaceInvaders.enemyClass2[2] =  new Image();
 SpaceInvaders.enemyClass2[2].loaded = false ;
 SpaceInvaders.enemyClass2[2].onload = function(){
